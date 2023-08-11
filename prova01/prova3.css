@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.linha {
+    border: 10px solid green;
+    padding: 100px;
+    margin:10px;
+    height: 98vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.esq {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    width: 33vw;
+}
+
+.esq div {
+    border: 10px solid green;
+    padding-top: 600px;
+    padding-right: 150px;
+}
+
+.meio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33vw;
+}
+
+.meio div {
+    border-radius: 3500px;
+    border:10px solid green;
+    padding: 100px;
+    background-color: green;
+}
+
+.dir {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 33.5vw;
+}
+
+.dir div {
+    border: 10px solid green;
+    padding-top: 600px;
+    padding-right: 150px;
+}

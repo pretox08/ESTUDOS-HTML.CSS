@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.cima {
+    background-color:red  ;
+    height: 10vh;
+
+}
+
+.meio {
+    display: flex;
+    flex-direction:row ;
+
+}
+
+.esquerda {
+    background-color: yellowgreen;
+    height: 80vh;
+    width: 33vw;
+
+}
+
+.meio2 {
+    background-color: turquoise;
+    height: 80vh;
+    width: 33vw;
+
+}
+
+.direita {
+    background-color: teal;
+    height: 80vh;
+    width: 34vw;
+
+}
+
+.baixo {
+    background-color: slategrey;
+    height: 10vh;
+
+}

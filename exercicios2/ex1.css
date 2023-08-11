@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.fundo {
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    height:30vh;
+}
+
+.fundo div {
+    background-color: blueviolet;
+    height: 110px;
+    width: 130px;
+    margin:20px;
+}

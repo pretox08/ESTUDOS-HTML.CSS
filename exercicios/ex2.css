@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.cima {
+    background-color: yellow;
+    height: 10vh;
+
+}
+
+.meio {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.esquerda {
+    background-color: blue;
+    height: 80vh;
+    width: 30vw;
+
+}
+
+.direita {
+    background-color: violet;
+    height: 80vh;
+    width: 70vw;
+
+}
+
+.baixo {
+    background-color: tomato;
+    height: 10vh;
+
+}

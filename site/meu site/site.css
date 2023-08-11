@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    font-family: Arial;
+    font-weight: 6px;
+    text-shadow: 2px;
+    color: white
+}
+
+* {
+    background-color: #000000;
+    box-sizing: border-box;
+}
+
+h2 {
+    color:beige;
+    text-transform: uppercase;
+}
+
+input {
+    color: #e00000;
+    border-radius: 10px;
+    border-color: beige;
+}
+
+img {
+    margin: 20px 20px 20px 20px;
+
+}
+
+button {
+    cursor: pointer;
+    color:aqua
+}
+
+a {
+    cursor:pointer;
+    color:aqua;
+    text-decoration-line: none;
+    font-weight: 30px;
+
+}

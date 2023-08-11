@@ -1,0 +1,77 @@
+* {box-sizing: border-box;
+    margin: 0px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho {
+    background-color: yellow;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.cabecalho div {
+    background-color: rgb(99, 99, 99);
+    height: 60px;
+    width: 65px;
+    margin:10px;
+}
+
+.meio {
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+}
+
+.esquerda {
+    background-color: turquoise;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.esquerda div {
+    background-color: rgb(99, 99, 99);
+    margin:15px;
+    height: 4vh;
+}
+
+#el1 {
+    display: flex;
+    flex-grow: 1;
+}
+
+.direita {
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: mediumorchid;
+}
+
+.direita div {
+    background-color: rgb(99, 99, 99);
+    width: 380px;
+    height: 380px;
+}
+
+.baixo {
+    background-color: salmon;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.baixo div {
+    background-color: rgb(99, 99, 99);
+    width: 20vw;
+    height: 5vh;
+}

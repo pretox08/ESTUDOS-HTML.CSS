@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.fundo {
+    height: 60vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: column;
+}
+
+.eqcima {
+    display: flex;
+    flex-direction: row;
+}
+
+.quadrados {
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
+
+.quadrados div {
+    background-color: blue;
+    height: 120px;
+    width: 150px;
+    margin: 5px;
+}
+
+.retangulo {
+    background-color: yellowgreen;
+    width: 170px;
+    height: 250px;
+    margin-top: 13px;
+}
+
+.quadrados2 div {
+    background-color: blue;
+    height: 120px;
+    width: 150px;
+    margin: 5px;
+    margin-top: 12px;
+    margin-left: 13px;
+}
+
+.retangulo2 {
+    background-color: yellowgreen;
+    width: 170px;
+    height: 250px;
+    margin-top: 13px;
+    margin-left:13px
+}
+
+.eqbaixo {
+    display: flex;
+    flex-direction: column;
+}
+
+.eqbaixo div {
+    background-color: teal;
+    width: 690px;
+    height: 65px;
+    margin: 10px;
+}
+
+.quadradopreto {
+    background-color: teal;
+    height: 57vh;
+    width: 400px;
+    margin-top: 13px;
+}
+
+.direita {
+    display: flex;
+    flex-direction: column;
+}
+
+#quadradocima {
+    height: 35vh;
+    width: 410px;
+    background-color: blue;
+    margin: 13px;
+}
+
+#quadradobaixo {
+    background-color: yellowgreen;
+    margin:13px;
+    height: 27vh;
+    width: 410px;
+}

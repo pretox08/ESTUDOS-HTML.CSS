@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.fundo {
+    display: flex;
+    flex-direction: column;
+}
+
+.esq {
+    display: flex;
+    margin: 10px 10px 10px 10px;
+}
+
+#q1 {
+    border: solid green;
+    border-radius: 1500px;
+    padding: 100px;
+    margin-right: 20px;
+    background-color: green;
+}
+
+.meio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#q2 {
+    border: solid green;
+    border-radius: 1500px;
+    padding: 100px;    
+    margin-right: 20px;
+    background-color: green;
+}
+
+.dir {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+#q3 {
+    border: 10px solid green;
+    border-radius: 1500px;
+    margin-right: 20px;
+    padding: 100px;
+    background-color: green;
+}

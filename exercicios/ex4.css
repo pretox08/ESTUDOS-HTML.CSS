@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.cima {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    height: 15vh;
+}
+
+.cima div {
+    background-color: rgb(99, 99, 99);
+    margin:10px;
+    height: 70px;
+    width: 70px;
+}
+
+.meio {
+    background-color: seagreen;
+    height: 42.5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.meio div {
+    background-color: rgb(99, 99, 99);
+    height: 230px;
+    width: 230px;
+    margin: 20px;
+}
+
+.baixo {
+    background-color: orange;
+    height: 42.5vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.baixo div {
+    background-color: rgb(99, 99, 99);
+    height: 230px;
+    width: 230px;
+    margin:20px;
+}

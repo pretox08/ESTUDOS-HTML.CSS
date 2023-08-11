@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.cima {
+    height: 28vh;
+    background-color:yellow;
+}
+.meio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: red;
+    height: 39vh;
+}
+
+.imagem {
+    background-color: steelblue;
+    height: 292px;
+    width: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#quadrado {
+    background-color: aliceblue;
+    height: 130px;
+    width: 160px;
+    margin-bottom: 60px;
+}
+
+#linha {
+    width: 220px;
+    height: 40px;
+    background-color: aliceblue;
+}
+
+.rodape {
+    background-color: tomato;
+    height: 33vh;
+}

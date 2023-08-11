@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.cima {
+    background-color: aquamarine;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.quadrados {
+    display: flex;
+    flex-direction: column;
+}
+
+.quadrados div {
+    background-color: blue;
+    height: 120px;
+    width: 160px;
+    margin: 10px;
+}
+
+.retangulo {
+    background-color: yellowgreen;
+    width: 170px;
+    height: 260px;
+    margin:10px;
+}
+
+.quadrados2 div {
+    background-color: blue;
+    height: 120px;
+    width: 160px;
+    margin: 15px;
+}
+
+.retangulo2 {
+    background-color: yellowgreen;
+    width: 170px;
+    height: 260px;
+    margin:10px;
+}
+
+.quadrados3 div {
+    background-color: blue;
+    height: 120px;
+    width: 160px;
+    margin: 15px;
+}
+
+.retangulo3 {
+    background-color: yellowgreen;
+    width: 170px;
+    height: 260px;
+    margin:10px;
+}
+
+.quadrados4 div {
+    background-color: blue;
+    height: 120px;
+    width: 160px;
+    margin: 15px;
+}
+
+.retangulo4 {
+    background-color: yellowgreen;
+    width: 170px;
+    height: 260px;
+    margin:10px;
+}

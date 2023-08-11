@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+.fundo {
+    height: 45vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.fundo div {
+    background-color: yellow;
+    height:110px;
+    width: 130px;
+    margin: 20px;
+}

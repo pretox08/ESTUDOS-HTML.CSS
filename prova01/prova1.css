@@ -1,0 +1,45 @@
+* { 
+box-sizing: border-box;
+margin: 0px;
+}
+
+.fundo {
+    display: flex;
+    flex-direction: column;
+}
+
+.esq {
+    display: flex;
+    margin-right: 10px;
+    justify-content: flex-end;
+}
+
+#q1 {
+    border: 10px solid green;
+    padding: 100px;
+    margin-left:10px;
+    margin-top: 10px;
+}
+
+.meio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#q2 {
+    border: 10px solid green;
+    padding: 100px;
+}
+
+.dir {
+    display: flex;
+    align-items: end;
+}
+
+#q3 {
+     border: 10px solid green;
+    padding: 100px;
+    margin-top: 50px;
+    margin-left: 10px;
+}

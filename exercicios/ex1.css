@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+
+}
+
+.cima {
+    background-color:blue;
+    height: 10vh;
+
+}
+
+.meio {
+    background-color: aqua;
+    height: 80vh;
+
+}
+
+.baixo {
+    background-color: yellowgreen;
+    height: 10vh;
+
+}

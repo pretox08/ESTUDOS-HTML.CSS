@@ -1,0 +1,296 @@
+.cabecalho {
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho img {
+    background-size: cover;
+    height: 5vh;
+    width: 14vw;
+}
+
+.container {
+    width: 85vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fundo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao-01 {
+    display: flex;
+    flex-direction: row;
+}
+
+.s1-esquerda {
+    width: 47vw;
+    display: flex;
+    flex-direction: column;
+    padding-left: 130px;
+}
+
+.s1-esquerda h1 {
+    font:50px 'font1';
+    color:#262626;
+    line-height: 0px;
+}
+
+.vermelho {
+    color:#eb194b !important;
+    margin-bottom: 30px;
+}
+
+.s1-esquerda p {
+    font:20px 'font2';
+    color:#262626;
+    margin-bottom: 20px;
+}
+
+.s1-esquerda button {
+    border:2px solid #eb194b;
+    color:#eb194b;
+    padding: 18px;
+    width: 13vw;
+    border-radius: 30px;
+    background-color: white;
+    font:14px 'font1';
+    letter-spacing: 2px;
+}
+
+.s1-esquerda button:hover {
+    background-color: #eb194b;
+    color:white;
+    width: 14vw;
+    letter-spacing: 3px;
+    transition: 0.3s;
+    transition-timing-function: ease;
+}
+
+.s1-direita img {
+    background-size: cover;
+    width: 42vw;
+    height: 59vh;
+}
+
+.meio-02 {
+    background-color: #eb194b;
+    width: 70vw;
+    height: 73vh;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro {
+    gap:30px;
+    padding: 60px;
+    height: 100%;
+}
+
+.cd-titulo {
+    font:35px 'font1';
+    text-align: center;
+    color: #fff;
+    line-height: 46px;
+    margin-bottom: 35px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.inp-esquerda {
+    display: flex;
+    flex-direction: column;
+}
+
+.inp-direita {
+    display: flex;
+    flex-direction: column;
+}
+
+.inp-esquerda input {
+    margin-bottom: 25px;
+    margin-right: 15px;
+    padding: 11px;
+    width: 22vw;
+    border-radius: 6px;
+    border: none;
+    color:#888;
+}
+
+.inp-direita input {
+    margin-bottom: 25px;
+    margin-right: 15px;
+    padding: 11px;
+    width: 22vw;
+    border-radius: 6px;
+    border: none;
+    color:#888;
+}
+
+.estado {
+    margin-bottom: 25px;
+    margin-right: 15px;
+    padding: 12px;
+    width: 22vw;
+    border-radius: 6px;
+    border: none;
+    color:#888;
+}
+
+.cd-botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:20px;
+    color:white;
+    font:15px 'font10';
+}
+
+.cd-botao {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.cd-botao button {
+    padding: 10px;
+    width: 11vw;
+    border-radius: 10px;
+    border: none;
+    font:18px 'font11';
+    color:#eb194b;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.cd-botao button:hover {
+    background-color: rgba(36, 152, 36, 0.751);
+    color:white;
+}
+
+.secao-03 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao-03 h1{
+    font:34px 'font1';
+    text-align: center;
+    margin-top: 50px;
+    color:#333;
+}
+
+.secao-03 b {
+    color:#eb194b;
+}
+
+.s3-cartoes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 80px;
+}
+
+.linha  div {
+    width: 25vw;
+    height: 22vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F5F5;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.linha div:hover {
+    background-color: #eb194b;
+    transition: 0.3s;
+}
+
+.linha div img {
+    width: 3.5vw;
+    height: 7vh;
+    position: absolute;
+    margin-bottom: 180px;
+}
+
+.linha div h3 {
+    text-align: center;
+    font:18px 'font1';
+    padding-top: 20px;
+}
+
+.linha div h3:hover {
+   color:white;
+}
+
+.linha div p {
+    text-align: center;
+    font:15px 'font1';
+    color: rgba(35,3,0,0.85);
+    padding: 20px 24px;
+}
+
+.linha div p:hover {
+    color:white;
+    transition: 0.5s;
+}
+
+.s3-selo {
+    background-color: #F6F5F5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 100vw;
+}
+
+.selo-esquerda {
+    width: 50vw;
+    gap:20px;
+}
+
+.selo-esquerda p {
+    font:18px 'font2';
+    font-size: 20px;
+}
+
+.selo-esquerda b {
+    color:#000;
+}
+
+.selo-direita {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.selo-direita img {
+    width: 15vw;
+    height: 28vh;
+}

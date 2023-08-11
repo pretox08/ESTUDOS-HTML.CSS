@@ -1,0 +1,181 @@
+body {
+    background-color: #f6f6f6;
+}
+
+.secao-01 {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    padding: 25px 0px 130px 0px;
+
+    background-color: #404eed;
+    background-image: url('../../assets/images/fundo.svg');
+    background-size: cover;
+    background-position: -620px 0px;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.secao-01 a {
+    cursor: pointer;
+}
+
+
+.s1-tenis {
+    position: absolute;
+    bottom: 0px;
+    left: -270px;
+
+}
+
+.s1-suco {
+    position:absolute;
+    bottom:0px;
+    right:-230px;
+
+}
+
+.s1-cabecalho {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+
+    margin-bottom:140px;
+}
+
+.botaodireita:hover {
+    box-shadow: 0px 8px 15px rgb(0 0 0 / 20%);
+    color: #5865f2;
+    transition: 0.3s;
+}
+
+.botaodireita {
+    background-color: white;
+    color: #23272a;
+    font:14px 'discord1';
+    padding: 10px 14px;
+    border-radius: 30px;
+    margin: 0px 10px;
+}
+
+.secao-01 h1 {
+    font:54px 'discord2';
+    color: white;
+    width: 450px;
+    text-align: center;
+    line-height: 50px;
+
+    margin-bottom: 50px;
+}
+
+.s1-cabecalho svg {
+    color: white;
+}
+
+.secao-01 p {
+    font:20px 'discord1';
+    width: 780px;
+    color: white;
+    text-align: center;
+    line-height: 32px;
+
+    margin-bottom: 30px;
+}
+
+.s1-menu {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.s1-menu a {
+    margin:5px 20px;
+    font:16px 'discord6';
+    color: white;
+}
+
+.s1-menu a:hover {
+    text-decoration: underline;
+}
+.s1-botoes {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.s1-botoes a {
+    background-color: white;
+    color: #23272a;
+    font:20px 'discord1';
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin: 0px 10px;
+
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.s1-botoes a:hover {
+    box-shadow: 0px 8px 15px rgb(0 0 0 / 20%);
+    color: #5865f2
+}
+
+.s1-botao-escuro {
+    background-color: #23272a !important;
+    color: white !important;
+}
+
+.s1-botao-escuro:hover {
+    background-color: rgb(60 60 60) !important;
+}
+
+.s1-botoes a svg {
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+.secao-02 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 110px 0px;
+}
+
+.s2-textos {
+    display: flex;
+    flex-direction: column;
+
+    width: 370px;
+
+}
+
+.s2-textos h1 {
+    font:50px 'discord5';
+    color: black;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.s2-textos p {
+    font:20px 'discord4';
+    color:#000;
+    line-height: 26px;
+}
+
+.secao-02 * {
+    margin: 0px 50px;
+}

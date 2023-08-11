@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.cima {
+    background-color: aqua;
+    height: 40vh;
+    width: 100vw;
+}
+
+.fundopreto {
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: baseline;
+}
+
+.esquerda div {
+    width: 33vh;
+    background-color: aliceblue;
+    width: 400px;
+    height: 3vh;
+    margin:4px;
+    margin-left: 20px;
+}
+
+.meio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.meio  div {
+    background-color: aliceblue;
+    width: 400px;
+    height: 3vh;
+    margin:4px;
+    margin-left: 110px;
+}
+
+.direita {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.direita div {
+    background-color: aliceblue;
+    width: 400px;
+    height: 3vh;
+    margin:4px;
+    margin-left: 180px;
+}

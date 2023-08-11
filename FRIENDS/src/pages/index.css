@@ -1,0 +1,359 @@
+section {
+    background-color: #030328;;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00000065;
+    width: 100vw;
+    opacity: 90%;
+    height: 8vh;
+    position: fixed;
+}
+
+.cabecalho img {
+    height: 4vh;
+    width: auto;
+    margin-left: 20px;
+}
+
+.cabecalho a {
+    color: white;
+    margin-left: 950px;
+    font:15px 'font1';
+    letter-spacing: 3px;
+}
+
+.cabecalho button {
+    margin-right: 40px;
+    border-radius: 30px;
+    padding: 9px;
+    width: 11vw;
+    background-color: rgb(181, 53, 246);
+    color: rgb(255, 255, 255);
+    font:12px 'font1';
+    letter-spacing: 3px;
+    border-color: rgb(181, 53, 246);
+}
+
+.cabecalho button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    border-color: white;
+}
+
+p {
+    color:white;
+}
+
+.secao-01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s1-conteudo {
+    height: 110vh;
+}
+
+.s1-conteudo h2 {
+    color: white;
+    font:50px 'font3';
+    margin-top: 100px;
+}
+
+.s1-conteudo img {
+    height: 84vh;
+    width: 74vw;
+}
+
+.s1-meio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url("../assets/images/gradiente.jpg");
+    background-position: -100px;
+    height: 17vh;
+    width: 100vw;
+}
+
+.s1-meio h2 {
+    color:white;
+    font:40px 'font3';
+}
+
+.s1-meio button {
+    background-color: rgb(181, 53, 246);
+    padding: 14px;
+    border-radius: 30px;
+    border-color: #007bff;
+    box-shadow: none;
+    width: 12vw;
+    margin-right: 80px;
+    color:white;
+    letter-spacing: 3px;
+    font:15px 'font1';
+}
+
+.s1-meio button:hover {
+    cursor: pointer;
+    background-color: white;
+    color:#212529;
+    transition: 0.3s;
+}
+
+.s1-baixo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.s1-baixo p {
+    font:20px 'font4';
+    margin: 20px;
+    line-height: 33px;
+    margin-top: -30px;
+}
+
+.secao-02 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.s2-cima {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.s2-cima h2 {
+    color: white;
+    font:50px 'font3';
+    margin-left: 200px;
+}
+
+.s2-cima select {
+    margin-right: 200px;
+    text-align: center;
+    height: 4vh;
+    border-radius: 30px;
+    background-color: #030328;
+    color:#9e86ff;
+    font:17px 'font2';
+    letter-spacing: 3px;
+    cursor: pointer;
+    border: 2px transparent #007bff;
+}
+
+.s2-cima select:hover {
+    color:white;
+    transition: 0.3s;
+}
+
+
+option {
+    vertical-align: middle;
+    background-color:#21252915;
+    opacity: 80%;
+    letter-spacing: 3px;
+    color:white;
+    border:none;
+}
+
+.s2-eps {
+    display: flex;
+    flex-direction: column;
+}
+
+.linha1 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    padding: 100px;
+    margin-bottom: 10px;
+}
+
+.linha2 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    padding: 100px;
+    margin-bottom: 10px;
+}
+
+.linha3 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    padding: 100px;
+    margin-bottom: 10px;
+}
+
+.linha4 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    padding: 100px;
+    margin-bottom: 10px;
+}
+
+.linha5 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    padding: 100px;
+    margin-bottom: 10px;
+}
+
+.linha6 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    padding: 100px;
+    margin-bottom: 80px;
+}
+
+.ep {
+    height: 5vh;
+    width: 18.5vw;
+}
+
+.ep img {
+    height: 19vh;
+    width: 16vw;
+    background-size: cover;
+}
+
+.ep h4 {
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font:15px 'font3';
+}
+
+.ep p {
+    font:12px 'font4';
+    line-height: 20px;
+    text-align: left;
+    margin-right: 7px;
+}
+
+.ep button {
+    border: none;
+    background-color: #030328;
+    color:#9e86ff;
+    font:13px 'font4';
+    border-radius: 50px;
+}
+
+.ep button:hover {
+    color:white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.secao-03 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 70px;
+
+}
+
+.secao-03 h2 {
+    color: white;
+    font:40px 'font3';
+    margin-left: 200px;
+    margin-bottom: 60px;
+}
+
+.series {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s3-linha1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.s3-linha2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.s3-linha3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.serie {
+    margin: 15px;
+}
+
+.serie img {
+    height: 19vh;
+    width: 16vw;
+}
+
+.serie h4 {
+    color: white;
+    font:16px 'font3';
+    margin-top: 15px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    background-color: #030328;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    height: 30vh;
+}
+
+.rodape a:hover {
+    color: white;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.rd-linha1 a {
+    color:#9e86ff;
+    font:13px 'font2';
+    letter-spacing: 2px;
+    margin: 25px;
+}
+
+.rd-linha2 {
+    margin-top: 20px;
+}
+
+.rd-linha2 a {
+    color:#9e86ff;
+    font:12px 'font4';
+    margin: 35px;
+}
+
+.rodape p {
+    color:#9e86ff;
+    font:12px 'font4';
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
